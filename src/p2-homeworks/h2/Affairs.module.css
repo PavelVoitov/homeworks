@@ -1,3 +1,18 @@
-.someClass {
+.taskClass {
+    display: grid;
+    grid-template-columns: 150px 150px 100px;
+    margin-bottom: 15px;
+}
 
+button {
+    background-color: #2c7831;
+    border-radius: 5px;
+    box-shadow: 3px 2px 2px red;
+    font-weight: bold;
+}
+
+.buttonSorted {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-column-gap: 20px;
 }
