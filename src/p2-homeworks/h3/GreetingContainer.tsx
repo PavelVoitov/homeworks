@@ -33,7 +33,9 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
     const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
         if (e.charCode === 13 && name) {
             addUser();
-        }
+        } else {
+            setError('Enter your name')
+        }// need to fix
     }
 
     const totalUsers = users.length // need to fix

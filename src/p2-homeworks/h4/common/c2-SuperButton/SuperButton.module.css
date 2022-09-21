@@ -6,17 +6,43 @@
     margin: 10px;
 }
 
+.default:hover {
+    color: #f3e706;
+    transition: 0.1s ease-in-out;
+}
+
+.default:active{
+    box-shadow: 5px 2px 2px red;
+    border: 1px solid hsl(5, 40%, 50%);
+    transition: 0.1s ease-in-out;
+}
+
 .red {
     background-color: red;
-    border-radius: 5px;
     box-shadow: 3px 2px 2px #efd682;
-    font-weight: bold;
-    margin-bottom: 10px;}
+}
 
-.default:disabled {
-    background-color: #bfc7c0;
-    border-radius: 5px;
-    box-shadow: 3px 2px 2px #04a8a8;
-    font-weight: bold;
-    margin-bottom: 10px;
+.red:hover{
+    background-color: #f3e706;
+    transition: 0.1s ease-in-out;
+}
+
+.red:active{
+    box-shadow: 5px 2px 2px red;
+    border: 1px solid hsl(5, 40%, 50%);
+    transition: 0.1s ease-in-out;
+}
+
+/*button:disabled {*/
+/*    background-color: #bfc7c0;*/
+/*    box-shadow: 3px 2px 2px #04a8a8;*/
+/*    touch-action: none;*/
+/*}*/
+
+button:disabled, button:hover:disabled{
+    color: #969694;
+    background-color: #7a7e7b;
+    border: 1px solid rgba(108, 108, 108, 0.1);
+    box-shadow: 3px 2px 2px #d0efef;
+    cursor: not-allowed;
 }
