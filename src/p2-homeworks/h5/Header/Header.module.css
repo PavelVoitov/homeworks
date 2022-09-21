@@ -1,8 +1,14 @@
 .navigation {
     display: flex;
     transform: rotate(0deg) translate(0px, 0px);
-    transition: 0.8s;
+    transition: 0.5s;
 }
+.navigation a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
 
 .container {
     display: flex;
@@ -14,10 +20,11 @@
     display: flex;
     -webkit-transform: rotate(0deg) translate(-100px, 0px);
     transform: rotate(0deg) translate(-250px, 0px);
-    transition: 0.8s;
+    transition: 0.5s;
 }
 
 .bar1, .bar2, .bar3 {
+    cursor: pointer;
     width: 30px;
     height: 3px;
     background-color: #333;
