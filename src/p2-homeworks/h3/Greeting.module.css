@@ -1,7 +1,40 @@
-.someClass {
-
+.errorClass {
+    font-weight: bolder;
+    color: red;
 }
 
 .error {
-    border: 1px solid red;
+    width: 20%;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.inputClass {
+    display: inline;
+    max-width: 60px;
+    margin: 10px;
+    color: #0a0a0a;
+}
+
+.countUsers {
+    display: inline-block;
+    background-color: #1cb8cb;
+    border-radius: 5px;
+    border: 2px solid  black;
+    box-shadow: 3px 2px 2px red;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+    height: 20px;
+
 }

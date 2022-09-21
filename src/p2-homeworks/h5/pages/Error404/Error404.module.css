@@ -1,0 +1,13 @@
+body {
+    background-cover: cover;
+    -moz-background-cover: cover;
+    -ms-background-cover: cover;
+    -webkit-background-cover: cover;
+}
+
+/*.ErrorFon {*/
+/*    background: url('https://www.belpressa.ru/media/filer_public_thumbnails/filer_public/3a/de/3aded7f6-1749-41d8-8ff8-3dedb2636fef/astronaut-1849401_960_720.jpg__750x415_q75_crop-True_subject_location-359%2C215_subsampling-2_upscale.jpg') no-repeat;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-size: cover;*/
+/*}*/

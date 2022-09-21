@@ -12,7 +12,7 @@ export type FilterType = 'all' | AffairPriorityType
 export type DefaultAffairsType = Array<AffairType>
 
 // constants
-export const defaultAffairs: DefaultAffairsType = [ // need to fix any
+const defaultAffairs: DefaultAffairsType = [ // need to fix any
     {_id: 1, name: 'React', priority: 'high'},
     {_id: 2, name: 'anime', priority: 'low'},
     {_id: 3, name: 'games', priority: 'low'},

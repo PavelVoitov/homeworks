@@ -1,12 +1,40 @@
 .superInput {
-
+    /*display: block;*/
+    margin: 10px;
+    width: 200px;
+    height: calc(0.5rem);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: #babfe5;
+    background-clip: padding-box;
+    border: 2px solid #2c7831;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .errorInput {
-    border: 3px solid lime;
-    background: red;
+    font-weight: bold;
+    border: 2px solid #f61d1d;
+    background: #babfe5;
+
+    margin: 10px;
+    width: 200px;
+    height: calc(0.5rem);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    /*border: 1px solid #bdbdbd;*/
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .error {
     color: red;
+    font-weight: bolder;
 }

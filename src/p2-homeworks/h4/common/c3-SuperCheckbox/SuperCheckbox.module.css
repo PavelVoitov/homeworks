@@ -1,7 +1,64 @@
-.checkbox {
 
-}
 
 .spanClassName {
 
+}
+
+.checkbox {
+   position: absolute;
+   opacity: 1; /* скрываем */
+}
+.checkbox {
+   position: relative;
+   cursor: pointer;
+}
+/* бокс */
+.checkbox:before {
+   content: '';
+   margin: 0px;
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background: #cec9c9;
+   border-radius: 2px;
+}
+/* бокс при наведении */
+.checkbox:hover {
+   background: #cb1111;
+}
+
+
+/* бокс в фокусе */
+:focus:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+ }
+/* бокс отмеченный */
+.checkbox:checked:before {
+   background: #1cb7ca;
+}
+
+/* отключенный стиль label */
+.checkbox:disabled {
+   color: #b7b7b7;
+   cursor: auto;
+}
+/* бокс отключенный */
+.checkbox:disabled:before {
+   box-shadow: none;
+   background: #ddd;
+}
+/* отмеченный */
+.checkbox:checked:after {
+   width: 15px;
+   height: 15px;
+   content: "✔";
+   font-weight: bolder;
+   font-size: 1em;
+   font-color: red;
+   text-align: center;
+   border-radius: 2px;
+   position: absolute;
+   top:0px;
+   left: 0px;
+   box-shadow: 0 0 0 1px #ef1010;
 }

@@ -1,6 +1,7 @@
-import React, {MouseEventHandler} from 'react'
-import {AffairType, DefaultAffairsType} from "./HW2";
+import React from 'react'
+import {AffairType} from "./HW2";
 import classNames from './Affairs.module.css'
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 
 type AffairPropsType = {
@@ -20,7 +21,7 @@ function Affair(props: AffairPropsType) {
         <div className={classNames.taskClass}>
                      <div>{props.affair.name}</div>
                      <div>[{props.affair.priority}]</div>
-                     <button onClick={() => onClickHandler(props.affair._id)}>X</button>
+                     <SuperButton red onClick={() => onClickHandler(props.affair._id)}>X</SuperButton>
         </div>
     )
 }
