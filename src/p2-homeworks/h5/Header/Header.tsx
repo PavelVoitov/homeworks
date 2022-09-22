@@ -10,22 +10,20 @@ function Header() {
         setActive(!Active);
     }
     return (
-        <div
-            className = {Active ? c.navigation : c.changeContainer}
-        >
+        <div className = {Active ? c.navigation : c.changeContainer}>
             <div>
                 <SuperButton>
-                    <Link to={'homeworks/pre-junior'}>
+                    <Link to={'/pre-junior'}>
                         pre-junior
                     </Link>
                 </SuperButton>
                 <SuperButton>
-                    <Link to={'homeworks/junior'} >
+                    <Link to={'/junior'} >
                         junior
                     </Link>
                 </SuperButton>
                 <SuperButton>
-                    <Link to={'homeworks/junior+'}>
+                    <Link to={'/junior+'}>
                         junior+
                     </Link>
                 </SuperButton>
