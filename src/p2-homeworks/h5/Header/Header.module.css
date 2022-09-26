@@ -19,7 +19,7 @@
 .changeContainer {
     display: flex;
     -webkit-transform: rotate(0deg) translate(-100px, 0px);
-    transform: rotate(0deg) translate(-250px, 0px);
+    transform: rotate(0deg) translate(-260px, 0px);
     transition: 0.5s;
 }
 
