@@ -1,13 +1,4 @@
 
-
-.spanClassName {
-
-}
-
-.checkbox {
-   position: absolute;
-   opacity: 1; /* скрываем */
-}
 .checkbox {
    position: relative;
    cursor: pointer;
@@ -19,12 +10,14 @@
    display: inline-block;
    width: 15px;
    height: 15px;
-   background: #cec9c9;
+   background: #b9bee4;
    border-radius: 2px;
+
 }
 /* бокс при наведении */
 .checkbox:hover {
    background: #cb1111;
+
 }
 
 
