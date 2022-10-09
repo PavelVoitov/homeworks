@@ -9,11 +9,11 @@ export const homeWorkReducer = (state: InitialPeopleType, action: ActionType): I
     switch (action.type && action.payload) {
         case 'sort' && 'up': {
             let copyState = [...state]
-            return copyState.sort((a, b) => a.age - b.age)
+            return copyState.sort((a, b) => b.age - a.age)
         }
         case 'sort' && 'down': {
             let copyState = [...state]
-            return copyState.sort((a, b) => b.age - a.age)
+            return copyState.sort((a, b) => a.age - b.age)
         }
         case 'check' && 18: {
             let copyState = [...state]

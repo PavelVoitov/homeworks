@@ -1,0 +1,12 @@
+.radio {
+    margin: 10px 10px;
+}
+
+.label {
+    padding: 10px;
+    color: #e8ec6a;
+}
+.span {
+    font-weight: bolder;
+    font-size: 20px;
+}
