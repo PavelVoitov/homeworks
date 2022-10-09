@@ -4,9 +4,9 @@ import s from './SuperSelect.module.css'
 type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 
 type SuperSelectPropsType = DefaultSelectPropsType & {
-    value: any
-    options?: any[]
-    onChangeOption: (option: any) => void
+    value: string
+    options?: string[]
+    onChangeOption: (option: string) => void
 }
 
 const SuperSelect: React.FC<SuperSelectPropsType> = (
@@ -16,7 +16,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         ...restProps
     }
 ) => {
-    const mappedOptions: any[] = options ? options.map((el, index) => (<option key={index}>{el}</option>)) : []; // map options with key
+    const mappedOptions = options ? options.map((el, index) => (<option key={index}>{el}</option>)) : []; // map options with key
 
 
 
@@ -28,7 +28,6 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     return (
         <select
             onChange={onChangeCallback}
-            defaultValue={restProps.value}
             {...restProps}
             className={s.superSelect}
         >
