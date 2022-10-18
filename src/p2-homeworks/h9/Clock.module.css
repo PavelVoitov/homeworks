@@ -1,0 +1,10 @@
+.date {
+    height: 20px;
+    width: 50px;
+}
+
+.time {
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+}
